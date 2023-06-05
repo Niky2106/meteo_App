@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("path/immagine.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgSfondo {
+    position: relative;
+    width: 100%;
+}
+
+/* h1 {
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+} */
+
+.container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+    width: 100%;
+
+}
+
+.container_profil {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
